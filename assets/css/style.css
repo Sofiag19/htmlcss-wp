@@ -1,6 +1,6 @@
 /* stile generale */
   body {
-    background-image: url("../img/sfondolegno.jpg");
+    background-image: url("https://wp-themes.com/wp-content/themes/natural-lite/images/default-pattern.png");
     background-size: cover;
   }
 
@@ -16,22 +16,30 @@
   }
 
 /* stile testata */
+  header {
+    margin-bottom: 8px;
+  }
 
   .testata {
     position: relative;
-    background: rgb(176, 170, 194);
     box-sizing: border-box;
+    height: 230px;
     border: 10px solid white;
-    height: 300px;
+    background-image: url("https://wp-themes.com/wp-content/themes/natural-lite/images/default-header.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 
   .titolo {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 45%;
     transform: translate(-50%,-50%);
     text-align: center;
-    background-color:rgb(186, 186, 186) ;
+    font-weight: 600px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 3em;
   }
 
   .descrizione {
@@ -40,14 +48,45 @@
     bottom: 4%;
     transform: translate(-50%,0);
     text-align: center;
-    background-color: rgb(186, 186, 186);
+    color:  white;
+    font-weight: 400px;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
   }
 
 /* stile barra */
   .barra {
     height: 50px;
-    background: rgb(78, 78, 78);
     margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .barra::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .menu {
+    float: left;
+    display: inline-block;
+    background: rgb(102, 102, 102);
+    line-height: 50px;
+    width: 14%;
+    font-size: 12px;
+    color: white;
+    max-height: 50px;
+  }
+
+  .menu:hover {
+    background-color: rgb(149, 149, 149);
+    cursor: pointer;
+  }
+  .menu.home {
+    width: 16%;
   }
 
 /* stile blocco principale */
@@ -63,6 +102,7 @@
     background: rgb(167, 142, 173);
     width: 21%;
     height: 500px;
+    border-radius: 5px;
   }
 
 /* seconda colonna */
@@ -72,6 +112,7 @@
     width: 50%;
     height: 250px;
     margin: auto 4%;
+    border-radius: 5px;
   }
 
 /* terza colonna */
@@ -84,6 +125,7 @@
     height: 300px;
     background: rgb(108, 144, 148);
     margin-bottom: 10px;
+    border-radius: 5px;
   }
 
 /* stile footer */
@@ -92,6 +134,7 @@
     height: 150px;
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.36);
+    border-radius: 5px;
   }
 
   .madeby {
