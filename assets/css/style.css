@@ -131,6 +131,7 @@
 
   .feed:hover {
     cursor: pointer;
+    color: blue;
   }
 
 /* seconda colonna */
@@ -152,17 +153,23 @@
     font-size: 12px;
     margin-top: 10%;
   }
+
 /* terza colonna */
   .terzac {
-    float: right;
+    float: left;
     width: 21%;
   }
 
   .p {
-    height: 300px;
     background: white;
     margin-bottom: 10px;
     border-radius: 5px;
+    padding: 10% 10%;
+  }
+
+  .widget {
+    font-size: 12px;
+    margin-top: 30%;
   }
 
 /* stile footer */
