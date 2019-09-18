@@ -26,7 +26,7 @@
     height: 230px;
     border: 10px solid white;
     background-image: url("https://wp-themes.com/wp-content/themes/natural-lite/images/default-header.jpg");
-    background-size: 100% auto;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
 
